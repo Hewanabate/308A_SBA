@@ -13,7 +13,7 @@ const options = {
   },
 }; 
   
-//Create an async function "initialLoad"
+//Create an async function Load
 const dogImageLoad = async () => {
   try {
     const url = await fetch(`https://api.thedogapi.com/v1/breeds`);
@@ -69,7 +69,7 @@ async function eventBreedSelect() {
     
     //breed for
     const infoDescription = document.createElement('p');
-    infoDescription.textContent = (`Breed for :${breedInfo.bred_for}`);
+    infoDescription.textContent = (`Breed for : ${breedInfo.bred_for}`);
       
     // breed temperament
     const infoDescription1 = document.createElement('p');
