@@ -1,11 +1,9 @@
 * {
     box-sizing: border-box;
  }
-#allbody {
+ .body{
   background-color: lightgray;
-  background-size: cover;
-  height: 100%;
-}
+ }
 
 #nav {
   background-color: black;
@@ -74,4 +72,7 @@ h4 {
 #contact{
     padding-right: 5%;
     padding-left: 5%;
+}
+#dog{
+  border-radius: 50%;
 }
